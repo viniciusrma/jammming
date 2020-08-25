@@ -1,12 +1,10 @@
 import React from 'react';
-import Track from '';
+import Track from '../Track/Track';
 
-function TrackList() {
+function TrackList(track) {
   return (
     <div className="TrackList">
-      <Track />
-      <Track />
-      <Track />
+      {this.props.tracks.map()}
     </div>
   )
 };

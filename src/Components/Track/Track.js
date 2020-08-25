@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Track {
+function Track(track) {
   return (
     <div className="Track">
       <div className="Track-information">
